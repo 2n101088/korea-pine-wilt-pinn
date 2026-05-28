@@ -1,0 +1,15 @@
+# 소나무재선충병 Fisher-KPP PINN 피해 예측 — 의존성
+# 설치:  python -m pip install -r requirements.txt
+torch==2.8.0
+numpy==1.26.4
+pandas==2.3.3
+matplotlib==3.9.4
+geopandas==1.0.1
+pyogrio==0.11.1
+shapely==2.0.7
+pyproj==3.6.1
+openpyxl==3.1.5      # 데이터베이스 설계서(.xls=실제 xlsx) 읽기용
+# 노트북 실행/커널
+ipykernel==6.31.0
+nbformat==5.10.4
+nbconvert==7.17.1
